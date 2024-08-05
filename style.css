@@ -1,0 +1,142 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    height: 80vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Arial;
+}
+
+#upperPart {
+    position: fixed;
+    top: 0;
+    display: flex;
+    width: 500px;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.scorePanel,
+#newGameBtn {
+    background-color: #bbada0;
+    color: rgb(0, 0, 0);
+    width: 90px;
+    height: 60px;
+    padding: 10px;
+    text-align: center;
+    font-size: 18px;
+    border-radius: 15px;
+}
+
+.scorePanel p {
+    margin-top: 15px;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+#newGameBtn {
+    background-color: #736455;
+    color: rgb(255, 255, 255);
+    margin: 15px;
+    width: 150px;
+}
+
+#tbl {
+    height: 400px;
+    width: 400px;
+    /* border: 2px solid black; */
+    border-spacing: 10px;
+    border-radius: 10px;
+    background-color: #bbada0;
+}
+
+td {
+    height: 85px;
+    width: 85px;
+    background-color: #cdc1b4;
+    color: #f9f6f2;
+    text-align: center;
+    font-size: 35px;
+    font-weight: bold;
+    border-radius: 7px;
+}
+
+#gameResultDiv {
+    display: none;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(255, 255, 255, 0.792);
+    height: 550px;
+    width: 525px;
+    position: fixed;
+    gap: 40px;
+}
+
+#gameResultDiv h1 {
+    color: #776e65;
+    font-size: 50px;
+}
+
+#gameResultDiv #replayBtn {
+    background-color: #8f7a66;
+    color: white;
+    font-size: 30px;
+    padding: 10px 15px;
+    border-radius: 10px;
+    border: none;
+}
+
+.box-2 {
+    background-color: #eee4da;
+    color: #776e65;
+}
+
+.box-4 {
+    background-color: #ede0c8;
+    color: #776e65;
+}
+
+.box-8 {
+    background-color: #f2b179;
+}
+
+.box-16 {
+    background-color: #f59563;
+}
+
+.box-32 {
+    background-color: #f67c5f;
+}
+
+.box-64 {
+    background-color: #f65e3b;
+}
+
+.box-128 {
+    background-color: #e6b24a;
+}
+
+.box-256 {
+    background-color: #edcc61;
+    box-shadow: 0 0 20px 10px #f6d56984;
+}
+
+.box-512 {
+    background-color: #f67c5f;
+    box-shadow: 0 0 20px 10px rgba(243, 165, 116, 0.588);
+}
+
+.box-1024 {
+    background-color: #f65e3b;
+    box-shadow: 0 0 20px 10px #f65d3b80;
+}
+
+.box-2048 {
+    background-color: #ff5e3a;
+    box-shadow: 0 0 20px 10px #b6452c8f;
+}

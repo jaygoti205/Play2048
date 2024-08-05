@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PLay2048</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+    <div id="upperPart">
+        <div class="scorePanel">
+            <label>Best Score</label>
+            <p id="bestScoreText"></p>
+        </div>
+        <button id="newGameBtn" onclick="playGame()">New Game</button>
+        <div class="scorePanel">
+            <label>Score</label>
+            <p id="scoreText"></p>
+        </div>
+    </div>
+    <div id="gameResultDiv">
+        <h1 id="gameResultMassageText"> Game Over!</h1>
+        <button id="replayBtn">Replay</button>
+    </div>
+
+    <table id="tbl">
+        <tbody id="tableBody"></tbody>
+    </table>
+
+    <script src="./script.js"></script>
+</body>
+
+</html>
